@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#546e7a</color>
+    <color name="primaryLightColor">#819ca9</color>
+    <color name="primaryDarkColor">#29434e</color>
+    <color name="secondaryColor">#37474f</color>
+    <color name="secondaryLightColor">#62727b</color>
+    <color name="secondaryDarkColor">#102027</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="blackColor">#000000</color>
+
+    <color name="primaryTextColoredColor">@color/primaryDarkColor</color>
+    <color name="secondaryTextColoredColor">@color/primaryColor</color>
+    <color name="backgroundColoredColor">@color/primaryLightColor</color>
+
+    <color name="defaultBackgroundColor">@color/cardview_light_background</color>
+    <color name="innerCardBackgroundColor">@color/defaultBackgroundColor</color>
+
+    <color name="ic_launcher_background">@color/defaultBackgroundColor</color>
+</resources>

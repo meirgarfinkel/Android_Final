@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/drawable-nodpi/splash_background.xml" value="0.114" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout-land/main_include_text_input.xml" value="0.33" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout/activity_main.xml" value="0.3104166666666667" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout/include_fab.xml" value="0.3104166666666667" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout/include_toolbar.xml" value="0.3104166666666667" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout/main_include_instruction_bar.xml" value="0.25" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout/main_include_text_input.xml" value="0.33" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/layout/main_include_text_input_shell.xml" value="0.1" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11" />
+        <entry key="..\:/Repos/Android/FinalExam2/app/src/main/res/xml/roo_preferences.xml" value="0.5494791666666666" />
+        <entry key="..\:/Repos/Java/FinalExam2/app/src/main/res/layout/activity_main.xml" value="0.5458333333333333" />
+        <entry key="..\:/Repos/Java/FinalExam2/app/src/main/res/layout/content_main.xml" value="0.5458333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

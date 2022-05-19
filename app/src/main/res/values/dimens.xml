@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="slim_activity_margin">4dp</dimen>
+    <dimen name="default_activity_margin">8dp</dimen>
+    <dimen name="inputMinWidth">800dp</dimen>
+    <dimen name="topMargin">112</dimen>
+
+</resources>

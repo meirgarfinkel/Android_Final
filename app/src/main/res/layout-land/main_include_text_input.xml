@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/slim_activity_margin"
+    android:background="@color/defaultBackgroundColor"
+    android:gravity="center"
+    tools:showIn="@layout/content_main">
+
+    <TextView
+        android:id="@+id/from_currency_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/from"
+        app:layout_constraintEnd_toEndOf="@+id/from_amount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/from_currency_type_input"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:hint="@string/enter_current_currency"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/from_currency_type_text" />
+
+    <EditText
+        android:id="@+id/from_amount"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:hint="@string/enter_current_amount"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/from_currency_type_input"
+        app:layout_constraintEnd_toStartOf="@+id/to_currency_type_input"
+        app:layout_constraintTop_toBottomOf="@+id/from_currency_type_text" />
+
+    <TextView
+        android:id="@+id/to_currency_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/to"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/to_currency_type_input"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/to_currency_type_input"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:hint="@string/enter_currency_desired"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/from_amount"
+        app:layout_constraintEnd_toStartOf="@+id/conversion_percent"
+        app:layout_constraintTop_toBottomOf="@+id/to_currency_type_text" />
+
+    <EditText
+        android:id="@+id/conversion_percent"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:ems="15"
+        android:hint="@string/enter_currency_percent"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/to_currency_type_input"
+        app:layout_constraintTop_toBottomOf="@+id/to_currency_type_text" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="219dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toStartOf="@+id/to_currency_type_input"
+        app:layout_constraintStart_toEndOf="@+id/from_amount"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Final Exam</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="banner_text">Please enter the names and amounts:</string>
+    <string name="currency_type">currency type text</string>
+    <string name="currency_helper_text">currency helper text</string>
+    <string name="clear_after">Clear After Calculation</string>
+
+    <string name="about_text">This app converts any currency to any desired currency accurately and quickly</string>
+    <string name="info_text">Meir Garfinkel enrolled in -MCOO 521- for the -Spring 22- semester,
+        currently studying at Touro University, created this app for his final.</string>
+    <string name="info">Info</string>
+    <string name="about">About</string>
+
+    <string name="key_auto_clear">AUTO_CLEAR</string>
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="enter_currency_percent">Enter Currency Percent</string>
+    <string name="enter_currency_desired">Enter Currency Desired</string>
+    <string name="enter_current_amount">Enter Current Amount</string>
+    <string name="enter_current_currency">Enter Current Currency</string>
+
+</resources>
